@@ -18,7 +18,7 @@ function App() {
 
       {/* Middle Section */}
       <div className="section middle">
-        <div className="mid-left"></div>
+        <div className="mid-left">Hello</div>
         <div className="mid-right"></div>
         <div className="mid-right"></div>
       </div>

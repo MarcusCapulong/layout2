@@ -22,7 +22,7 @@ body {
 .section {
   display: flex;
   gap: 15px;
-  border: 3px solid blue;
+  border: 4px solid blue;
   background: #b0e0ff;
   padding: 10px;
   width: 100%;
@@ -39,15 +39,15 @@ body {
 .top-box {
   width: 30%;
   background: #ffdead;
-  border: 3px solid salmon;
+  border: 4px solid salmon;
   height: 70px;
 }
 
 /* Fixed Center Box with Red Boxes */
 .center {
-  width: 30%;
+  width: 40%;
   background: #ffdead;
-  border: 3px solid salmon;
+  border: 4px solid salmon;
   height: 70px;
   display: flex;
   padding: 5px;
@@ -64,44 +64,46 @@ body {
 .center-inner {
   flex: 1;
   background: #ffb6b6;
-  border: 3px solid red;
+  border: 4px solid red;
 }
 
 /* Middle Section */
 .middle {
   display: grid;
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: 3fr 2fr;
   grid-template-rows: 1fr 1fr;
   gap: 15px;
   border: none;
   background: transparent;
+  width: 84%;
 }
 
 .mid-left {
   grid-row: 1 / 3;
   background: #f8b1b1;
-  border: 3px solid brown;
-  height: 250px;
+  border: 4px solid brown;
+  height: 256px;
 }
 .mid-right {
   background: #f8b1b1;
-  border: 3px solid brown;
+  border: 4px solid brown;
   height: 117px;
 }
 
 /* Bottom Section */
 .bottom {
-  display: flex;
+  display: flex;  
   justify-content: space-between;
 }
 
 .bottom-box {
   height: 70px;
-  width: 20%;
-  border: 3px solid salmon;
+  width: 25%;
+  border: 4px solid salmon;
   background: #ffdead;
 }
 .bottom-box.purple {
+  width: 50%;
   background: #dcdcff;
-  border: 3px solid blue;
+  border: 4px solid rgb(114, 40, 253);
 }

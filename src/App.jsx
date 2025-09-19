@@ -7,12 +7,14 @@ function App() {
       {/* Top Section */}
       <div className="section top">
         <div className="top-box"></div>
+
         <div className="center">
           <div className="center-inner-container">
-            <div className="center-inner"></div>
-            <div className="center-inner"></div>
+            <div className="center-inner">Marcus Noel</div>
+            <div className="center-inner">Capulong</div>
           </div>
         </div>
+
         <div className="top-box"></div>
       </div>
 
@@ -26,8 +28,8 @@ function App() {
       {/* Bottom Section */}
       <div className="section bottom">
         <div className="bottom-box purple"></div>
-        <div className="bottom-box"></div>
-        <div className="bottom-box"></div>
+        <div className="bottom-box">C-PCIT9</div>
+        <div className="bottom-box">IT3B</div>
         <div className="bottom-box purple"></div>
       </div>
     </div>

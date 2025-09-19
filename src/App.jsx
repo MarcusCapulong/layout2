@@ -1,5 +1,29 @@
+App.jsx
+
 import React from "react";
 import "./App.css";
+
+// Header Component for Name and Surname
+function HeaderName({ firstName, lastName }) {
+  return (
+    <div className="center">
+      <div className="center-inner-container">
+        <div className="center-inner">{firstName}</div>
+        <div className="center-inner">{lastName}</div>
+      </div>
+    </div>
+  );
+}
+
+// Footer Component for Subject Code and Section
+function FooterInfo({ subjCode, section }) {
+  return (
+    <>
+      <div className="bottom-box">{subjCode}</div>
+      <div className="bottom-box">{section}</div>
+    </>
+  );
+}
 
 function App() {
   return (
@@ -7,14 +31,7 @@ function App() {
       {/* Top Section */}
       <div className="section top">
         <div className="top-box"></div>
-
-        <div className="center">
-          <div className="center-inner-container">
-            <div className="center-inner">Marcus Noel</div>
-            <div className="center-inner">Capulong</div>
-          </div>
-        </div>
-
+        <HeaderName firstName="Marcus Noel" lastName="Capulong" />
         <div className="top-box"></div>
       </div>
 
@@ -28,8 +45,7 @@ function App() {
       {/* Bottom Section */}
       <div className="section bottom">
         <div className="bottom-box purple"></div>
-        <div className="bottom-box">C-PCIT9</div>
-        <div className="bottom-box">IT3B</div>
+        <FooterInfo subjCode="C-PCIT9" section="IT3B" />
         <div className="bottom-box purple"></div>
       </div>
     </div>
